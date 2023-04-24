@@ -24,7 +24,7 @@ Em seguida, criei uma classe - **StarWarsApiResponse** -  que representa a SWAPI
 
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c0947a45-951c-4e12-bbcf-3a729276404f/Untitled.png)
 
-Depois, utilizando o **`RestTemplate` ,** criei um cliente HTTP para a SWAPI. Nessa classe criei uma instância do **`RestTemplate`** e um método que faz uma solicitação GET para a SWAPI. Adicionei um parâmetro de pesquisa "Luke Skywalker" ao URL da API, dessa forma retorna somente os filmes que têm a participação de Luke.
+Depois, utilizando o **`RestTemplate` ,** criei um HTTP para a SWAPI. Nessa classe criei uma instância do **`RestTemplate`** e um método que faz uma solicitação GET para a SWAPI. Adicionei um parâmetro de pesquisa "Luke Skywalker" ao URL da API, dessa forma retorna somente os filmes que têm a participação de Luke.
 
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6b3cc107-73ac-4bfc-8307-2eb129ecbd22/Untitled.png)
 
