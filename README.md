@@ -14,7 +14,7 @@ Se você chegou até aqui, meus parabéns. Darth Vader quebrou a quarta dimensã
 
 Primeiramente, criei um projeto utilizando Spring Initializr e o abri com o Spring Tool Suite.
 
-Depois, criei as variáveis com o mesmo nome da API que vamos utilizar.
+Criei a classe filme e as variáveis com o mesmo nome da API que vamos utilizar.
 
 ![Podemos observar as variáveis que quero que retorne e os devidos Setters e Getters.](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7513fb4a-837e-4a89-950d-f03554da2cca/Untitled.png)
 
@@ -24,11 +24,11 @@ Em seguida, criei uma classe - **SWAPIResponse**-  que representa a SWAPI. Essa 
 
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7f1827c6-b6b3-4178-8e74-e0fd0310a123/Untitled.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c0947a45-951c-4e12-bbcf-3a729276404f/Untitled.png)
+Depois, utilizando o **`RestTemplate` ,** criei um HTTP para a SWAPI. Nessa classe criei uma instância do **`RestTemplate`** e um método que faz uma solicitação GET para a SWAPI que retorna somente os filmes que têm a participação de Luke.
 
-Depois, utilizando o **`RestTemplate` ,** criei um cliente HTTP para a SWAPI. Nessa classe criei uma instância do **`RestTemplate`** e um método que faz uma solicitação GET para a SWAPI que retorna somente os filmes que têm a participação de Luke.
+![Ao receber uma requisição POST para a URL "/filmes" no Postman, será adicionado à lista de filmes na classe FilmeControllerApplication.](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f95d5d67-2595-4e48-a032-070313d91fa5/Untitled.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f95d5d67-2595-4e48-a032-070313d91fa5/Untitled.png)
+Ao receber uma requisição POST para a URL "/filmes" no Postman, será adicionado à lista de filmes na classe FilmeControllerApplication.
 
 A API está pronta!
 
@@ -38,7 +38,7 @@ A API está pronta!
 ## Executando o projeto
 
 1. Para a execução do projeto, abriremos o [Postman API Platform](https://www.postman.com/), uma plataforma de API para teste.
-2. Ao executar o projeto no Spring Tool Suite, já é possível executá-lo no Postman, basta colocar o seguinte link: ***[http://localhost:8080/movies](http://localhost:8080/filmes)*** como na imagem abaixo:
+2. Ao executar o projeto no Spring Tool Suite, já é possível executá-lo no Postman, basta colocar o seguinte link: [http://localhost:8080/filmes](http://localhost:8080/filmes) ******como na imagem abaixo:
 
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3ec4f8db-4ed3-4ebf-b914-e5e5b6ee950b/Untitled.png)
 
